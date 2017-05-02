@@ -1,0 +1,29 @@
+{
+    "name": "tsx-kit",
+    "version": "0.1.0",
+    "description": "tsx-kit",
+    "scripts": {
+        "start": "webpack-dev-server --inline --config webpack.config.js --content-base dist --progress --colors --open"
+    },
+    "license": "BSD-3-Clause",
+    "dependencies": {
+        "@types/react": "^15.0.23",
+        "@types/react-dom": "^15.5.0",
+        "react": "^15.5.4",
+        "react-dom": "^15.5.4"
+    },
+    "devDependencies": {
+        "awesome-typescript-loader": "^3.1.3",
+        "css-loader": "^0.28.0",
+        "extract-text-webpack-plugin": "^2.1.0",
+        "html-loader": "^0.4.5",
+        "html-webpack-plugin": "^2.28.0",
+        "less-loader": "^4.0.3",
+        "sass-loader": "^6.0.3",
+        "source-map-loader": "^0.2.1",
+        "style-loader": "^0.17.0",
+        "typescript": "^2.3.2",
+        "webpack": "^2.2.0",
+        "webpack-dev-server": "^2.4.5"
+    }
+}
